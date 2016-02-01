@@ -36,11 +36,16 @@ class Party(webapp2.RequestHandler):
     def get(self):
         template = JINJA_ENVIRONMENT.get_template('party.html')
         self.response.write(template.render())
-        
+class Playlist(webapp2.RequestHandler):
+    def get(self):
+        template = JINJA_ENVIRONMENT.get_template('playlist.html')
+        self.response.write(template.render())
+
 app = webapp2.WSGIApplication([
         ('/', MainPage),
         ('/landing', Landing),
         ('/create', CreateParty),
         ('/join', JoinParty),
-        ('/party' Party),
+        ('/party', Party),
+        ('/playlist', Playlist),
 ], debug=True)

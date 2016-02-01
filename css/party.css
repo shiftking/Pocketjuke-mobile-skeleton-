@@ -1,0 +1,119 @@
+.menu{
+  width: auto;
+  height: 12vh;
+  background-color: #b4b4b4;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  margin-top: 1vh;
+  border-radius: 2.5vh;
+  padding-left: 2.5vh;
+  padding-right: 2.5vh;
+
+}
+.landing{
+  top: 3vh;
+  height: 95vh !important;
+}
+.playing_active{
+  margin-left: 1vh;
+  margin-right: 1vh;
+  margin-top: 1vh;
+  border-radius: 2.5vh;
+  width: auto;
+  height: 80vh;
+  background-color: #b4b4b4;
+  padding-top: 1vh;
+}
+.no_padding{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.party_icon{
+
+  margin-bottom: 1vh;
+  margin-left: 1vh;
+  height: 9vh;
+  width: 10vh;
+  background-color: white;
+  border-radius: 2.5vh;
+  float: left;
+  padding-top: 3vh;
+  text-align: center;
+}
+
+.party_name{
+
+  margin-bottom: 1vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  height: 9vh;
+  width: 18vh;
+  background-color: white;
+  border-radius: 2.5vh;
+  float: left;
+  padding-top: 3vh;
+  text-align: center;
+}
+
+.party_playlist{
+
+  margin-bottom: 1vh;
+  height: 9vh;
+  width: 10vh;
+  background-color: white;
+  border-radius: 2.5vh;
+  float: left;
+  padding-top: 3vh;
+  text-align: center;
+}
+.active_song{
+  text-align: center;
+  padding-top: 19.5vh;
+  width: auto;
+  height: 41vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  background-color: white;
+  border-radius: 2.5vh;
+}
+.queue{
+  margin-top: 1vh;
+  width: auto;
+  height: 35vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  background-color: white;
+  border-radius: 2.5vh;
+  padding-top: 1vh;
+}
+.song_main{
+  border-radius: 2vh;
+  width: auto;
+  margin-left: 2vw;
+  margin-right: 2vw;
+
+
+  height: 10vh;
+  background-color: #7d7b73;
+  padding-left: 1.5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.song_icon{
+  height: 8vh;
+  width: 8vh;
+  background-color: white;
+  border-radius: 2vh;
+  float: left;
+  margin-right: 1.5vh;
+}
+.song_name{
+  height: 8vh;
+  text-align: center;
+  padding-top: 3vh;
+  font-size: 2vh;
+  width: 25vh;
+  background-color: white;
+  border-radius: 2vh;
+  float: left;
+}

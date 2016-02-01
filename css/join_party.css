@@ -14,6 +14,10 @@
 .search{
   width: 12vw !important;
 }
+p{
+  margin: 0 !important;
+  padding: 0 !important;
+}
 .party_main{
   border-radius: 2vh;
   width: auto;
